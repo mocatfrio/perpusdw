@@ -13,7 +13,7 @@ var Book = function(book) {
 };
 
 Book.getAllBooks = function(result) {
-  sql.query("SELECT * FROM `book`", bookId, function(err, res) {
+  sql.query("SELECT * FROM `book`", function(err, res) {
     if(err) {
       console.log("error: ", err);
       result(null, err);

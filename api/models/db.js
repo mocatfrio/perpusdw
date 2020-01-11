@@ -9,7 +9,8 @@ var db = {
   password: 'kocengliar',
   database: 'db_library'
 };
-var connection = mysql.createConnection(db);
+
+const connection = mysql.createConnection(db);
 
 connection.connect(function(err) {
   if(err) {
@@ -20,6 +21,3 @@ connection.connect(function(err) {
 });
 
 module.exports = connection;
-
-// // require any models
-// require("./bookModel");
