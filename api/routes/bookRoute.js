@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = function(app) {
   // define controllers
   const bookController = require("../controllers/bookController");

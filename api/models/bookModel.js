@@ -1,5 +1,3 @@
-'use strict';
-
 const sql = require('./db.js');
 
 //book object constructor 

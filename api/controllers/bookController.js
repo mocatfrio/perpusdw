@@ -1,5 +1,3 @@
-'use strict';
-
 var Book = require('../models/bookModel.js');
 
 exports.createNewBook = function(req, res) {
